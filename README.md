@@ -38,4 +38,4 @@ npm install
 npm run dev
 ```
 
-Você pode acessar a aplicação clicando [aqui](https://spontaneous-kangaroo-5347be.netlify.app).
+Você pode acessar a aplicação clicando [aqui](https://thunderous-zabaione-02d5f0.netlify.app).
