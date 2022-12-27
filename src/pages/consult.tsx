@@ -104,12 +104,6 @@ export default function Consult({ data }: ConsultPageProps) {
     }
   }
 
-  const { isFallback } = useRouter()
-
-  if (isFallback) {
-    return <p>Loading...</p>
-  }
-
   return (
     <>
       <ToastContainer

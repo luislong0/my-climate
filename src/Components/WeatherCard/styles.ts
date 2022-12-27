@@ -14,6 +14,12 @@ export const WeatherCardContainer = styled('div', {
   backgroundColor: '$gray800',
   padding: '2.81rem 1.56rem',
   borderRadius: 8,
+  border: '2px solid $gray800',
+  transition: 'all ease-out 0.2s',
+
+  '&:hover': {
+    border: '2px solid $violet600',
+  },
 
   '@bp1': {
     padding: '2.81rem 1rem',
