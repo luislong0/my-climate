@@ -158,7 +158,7 @@ export default function Consult({ data }: ConsultPageProps) {
 
         {weather.current &&
           <CarouselCards ref={sliderRef} className="keen-slider">
-            {dayWeather.map((currentWeather, index) => {
+            {dayWeather.map((currentWeather: any, index) => {
               if (index >= nowHours) {
                 return (
                   <div key={currentWeather.time} className="keen-slider__slide">
